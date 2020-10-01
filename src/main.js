@@ -13,6 +13,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
 
 import '@/assets/style.css' //全局css
+import '@/icons' // icon
 
 new Vue({
   router,

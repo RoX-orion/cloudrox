@@ -1,7 +1,7 @@
 <template>
   <div>
-    <app-main/>
-    <el-backtop ></el-backtop>
+    <!-- <app-main/> -->
+    <el-backtop></el-backtop>
     <nav-bar/> 
     <router-view/>
   </div>
@@ -15,6 +15,7 @@ export default {
   name: 'Layout',
   components: {
     NavBar,
+    AppMain
   }
 }
 </script>
