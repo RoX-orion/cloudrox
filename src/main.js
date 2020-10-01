@@ -12,7 +12,12 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
 
-import '@/assets/style.css' //全局css
+/**
+ * global css
+ */
+import '@/assets/style.css' 
+import '@/styles/index.scss'
+
 import '@/icons' // icon
 
 new Vue({

@@ -1,7 +1,10 @@
 <template>
   <div>
-    <el-card  class="container">
+    <el-card  >
       <b>公告</b>
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Vero ducimus mollitia dolorum ut est incidunt voluptas necessitatibus ipsum, 
+        ipsam iusto quibusdam. Sint error earum rem vero sed minus quae non?</div>
     </el-card>
   </div>
 </template>
@@ -14,7 +17,8 @@ export default {
 </script>
 
 <style scoped>
-  .container {
+  /* .container {
     margin-bottom: 20px;
-  }
+    he
+  } */
 </style>

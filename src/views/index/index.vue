@@ -1,12 +1,17 @@
 <template>
   <div class="container">
-    <div class="top">
-
-    </div>
-    <!-- <div>
+    <div>
       <Notice/>
-    </div> -->
-    <el-row :gutter="50" class="aaa">
+      <Notice/>
+      <Notice/>
+      <Notice/>
+      <Notice/>
+      <Notice/>
+      <Notice/>
+      <Notice/>
+    </div>
+    <p>nvsdibvi</p>
+    <!-- <el-row :gutter="50" class="aaa">
       <el-col :lg="16">
         <el-row :gutter="50">
           <el-col :lg="12" :md="12" :sm="12" :xs="24" class="article">
@@ -26,7 +31,7 @@
       <el-col :lg="8">
         <Aboutme></Aboutme>
       </el-col>
-    </el-row>
+    </el-row> -->
   </div>
 </template>
 
@@ -37,7 +42,7 @@ import Notice from './components/notice'
 
 export default {
   components: {
-    Article,
+    // Article,
     Aboutme,
     Notice
   }
@@ -47,6 +52,7 @@ export default {
 <style scoped>
   .container {
     padding: 25px;
+    height: 1000px;
   }
 
   .article {
@@ -55,13 +61,5 @@ export default {
 
   .aaa * {
     margin-bottom: 25px;
-  }
-
-  .top {
-    /* position:absolute; */
-    width: 100%;
-    height: 500px;
-    background-image: url(../../assets/img/starry-night.jpg);
-    background-size: cover;
   }
 </style>

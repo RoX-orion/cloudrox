@@ -1,9 +1,15 @@
 <template>
-  <div>
-    <!-- <app-main/> -->
+  <div class="app-wrapper">
     <el-backtop></el-backtop>
-    <nav-bar/> 
-    <router-view/>
+    <div>
+      <div>
+        <nav-bar/> 
+      </div>
+      <div class="main">
+        <app-main/>
+      </div>
+    </div>
+    
   </div>
 </template>
 
@@ -19,3 +25,7 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+</style>

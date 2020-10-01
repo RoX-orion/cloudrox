@@ -9,9 +9,6 @@
       <div class="grey">Change The World By Programimg</div>
       <ul>
         <li><a href="https://www.github.com/RoX-orion" target="_blank">github</a></li>
-        <div class="icon">
-          <svg-icon icon-class="new-visit"/>
-        </div>
       </ul>
     </el-card>
   </div>
@@ -24,10 +21,6 @@ export default {
 </script>
 
 <style scoped>
-  .icon {
-    color: brown;
-    font-size: 50px;
-  }
   .aboutme-img {
     /* position: relative;
     padding-bottom: 40%;

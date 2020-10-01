@@ -43,8 +43,8 @@ export default {
 
 <style>
   .container{
-    position:relative;
-    padding-bottom:80%;
+    position: relative;
+    /* padding-bottom: 0%; */
     height: 0;
   }
   .container .image{
