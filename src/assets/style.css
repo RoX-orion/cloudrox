@@ -11,3 +11,7 @@ body {
 .grey {
   color: grey;
 }
+
+.standard-font-size {
+  font-size: 18px;
+}

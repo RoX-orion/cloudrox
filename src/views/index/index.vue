@@ -3,33 +3,31 @@
     <div class="notice">
       <Notice/>
     </div>
-    <dic class="test">
+    <div class="main-box">
       <div class="main">
-      <el-row :gutter="50" class="aaa">
-        <el-col :lg="15" :md="12" :sm="12" :xs="24" class="bbb">
-          <el-row :gutter="50">
-            <el-col :span="24">
-              <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
-            </el-col>
-            <el-col :span="24">
-              <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
-            </el-col>
-            <el-col :span="24">
-              <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
-            </el-col>
-            <el-col :span="24">
-              <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
-            </el-col>
-          </el-row>
-        </el-col>
-        <el-col :lg="8" :md="12" :sm="12" :xs="24" class="bbb">
-          <Aboutme></Aboutme>
-        </el-col>
-      </el-row>
+        <el-row :gutter="50" class="main-row">
+          <el-col :lg="15" :md="12" :sm="12" :xs="24">
+            <el-row :gutter="50">
+              <el-col :span="24">
+                <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
+              </el-col>
+              <el-col :span="24">
+                <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
+              </el-col>
+              <el-col :span="24">
+                <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
+              </el-col>
+              <el-col :span="24">
+                <Article title="Linux" text="bvkdhbv" src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></Article>
+              </el-col>
+            </el-row>
+          </el-col>
+          <el-col :lg="8" :md="12" :sm="12" :xs="24">
+            <Aboutme></Aboutme>
+          </el-col>
+        </el-row>
+      </div>
     </div>
-    </dic>
-    
-    
   </div>
 </template>
 
@@ -48,24 +46,19 @@ export default {
 </script>
 
 <style scoped>
-  .test {
+  .main-box {
     display:flex;
-      justify-content: center;
-      align-items: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .main {
-    /* padding: 25px, 0, 0, 0; */
     margin: 25px;
-    /* margin:0 auto; */
     position: relative;
     max-width: 1250px;
   }
 
-
   .notice {
-    /* margin-bottom: 25px; */
-    /* margin: 0, 25px, 25px, 25px; */
     margin: 25px;
     margin-top: 70px;
   }
@@ -75,12 +68,7 @@ export default {
     margin-bottom: 20px;
   }
 
-  /* .main *{
-    text-align: center;
-    margin: auto;
-  } */
-
-  .aaa *{
+  .main-row *{
     margin-bottom: 25px;
   }
 </style>
