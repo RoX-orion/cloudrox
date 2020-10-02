@@ -102,13 +102,13 @@ const navItemss= [
   a:active{text-decoration:none;}
 
   .top {
-    /* position: fixed; */
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     z-index: 100;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(25, 137, 250, 0.6);
   }
 
   .menu {
