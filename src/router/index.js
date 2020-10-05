@@ -18,7 +18,18 @@ const routes = [
       }
     ]
   },
-
+  {
+    path: '/content',
+    component: Layout,
+    redirect: '/index',
+    children: [
+      {
+        path: 'index',
+        name: 'Content',
+        component: () => import('@/views/content/index')
+      }
+    ]
+  }
 ]
 
 const router = new VueRouter({

@@ -46,3 +46,17 @@
 .breadcrumb-leave-active {
   position: absolute;
 }
+
+
+.moveL-enter-active, .moveL-leave-active { 
+  transition: all 0.3s linear;
+  transform: translateX(0%); 
+} 
+
+.moveL-enter, .moveL-leave { 
+  transform: translateX(-100%);
+}
+ 
+.moveL-leave-to { 
+  transform: translateX(-100%);
+}

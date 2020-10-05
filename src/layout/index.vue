@@ -1,15 +1,8 @@
 <template>
   <div class="app-wrapper">
     <el-backtop></el-backtop>
-    <div>
-      <div>
-        <nav-bar/> 
-      </div>
-      <div class="main">
-        <app-main/>
-      </div>
-    </div>
-    
+      <nav-bar/>
+      <app-main/>
   </div>
 </template>
 
