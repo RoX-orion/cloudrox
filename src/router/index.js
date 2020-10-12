@@ -24,12 +24,17 @@ const routes = [
     redirect: '/index',
     children: [
       {
-        path: 'index',
+        path: 'index/:text :src',
         name: 'Content',
         component: () => import('@/views/content/index')
       }
     ]
-  }
+  },
+  // {
+  //   path: '/test',
+  //   name: 'Name',
+  //   component: () => import('@/views/test/index')
+  // }
 ]
 
 const router = new VueRouter({

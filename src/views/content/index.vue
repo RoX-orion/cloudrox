@@ -10,12 +10,14 @@
               <el-row :gutter="50" class="banner">
                 <el-col :span="24" class="txt_right">
                   <h3>digital-vm：低至$4/月，日本\新加坡\美国等8机房，10Gbps带宽不限流量的VPS，畅快跑流量，PayPal/支付宝</h3>
+                  <img :src="src">
+                  <button @click="print">点击</button>
                 </el-col>
               </el-row>
             </el-card>
           </el-col>
           <el-col :lg="8" :md="12" :sm="12" :xs="24">
-            <right-column/>
+            
           </el-col>
         </el-row>
       </div>
@@ -25,9 +27,17 @@
 
 <script>
 export default {
+  data() {
+    return {
+      src: this.$route.params.src
+    }
+  },
   methods: {
     goBack() {
       this.$router.go(-1);
+    },
+    print() {
+      console.log(this.$route.params.src)
     }
   }
 }
