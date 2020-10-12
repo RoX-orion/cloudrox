@@ -9,8 +9,8 @@
 </template>
 
 <style scoped>
-  .container {
+  /* .container {
     position: relative;
     width: 100%;
-  }
+  } */
 </style>

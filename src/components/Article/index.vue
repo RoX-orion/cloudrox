@@ -4,7 +4,7 @@
       <el-row class="article">
         <el-col :lg="8" :xs="24" class="image">
           <div style="overflow: hidden">
-            <img src="../../assets/img/1876.jpg" height="250px">
+            <router-link to="/content/index"><img src="../../assets/img/1876.jpg" height="250px"></router-link>
           </div>
         </el-col>
         <el-col :lg="15" :xs="24" class="describe">

@@ -27,7 +27,7 @@
 export default {
   methods: {
     goBack() {
-      console.log("goBack")
+      this.$router.go(-1);
     }
   }
 }
