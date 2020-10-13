@@ -50,11 +50,10 @@
 
 const navItemss= [
   { name: "首页", indexPath: "/home", index: "1" },
-  { name: "Linux", indexPath: "/subscribe", index: "2"},
-  { name: "前端", indexPath: "/about", index: "3" },
-  { name: "后端", indexPath: "/more", index: "4" },
-  { name: "注册", indexPath: "/more", index: "5" },
-  { name: "登录", indexPath: "/more", index: "6" }
+  { name: "分类目录", indexPath: "/subscribe", index: "2"},
+  { name: "服务", indexPath: "/about", index: "3" },
+  { name: "关于本站", indexPath: "/more", index: "4" },
+  { name: "隐私政策", indexPath: "/more", index: "5" },
 ]
 
   export default {
