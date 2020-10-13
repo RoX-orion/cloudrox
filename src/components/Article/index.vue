@@ -101,15 +101,15 @@ export default {
   }
 
   .excerpt {
-    height: 150px;
+    height: 120px;
     padding-top: 15px;
     margin-bottom: 10px;
-    line-height: 30px;
+    line-height: 26px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 4;
   }
 
   .visit {

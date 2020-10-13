@@ -23,6 +23,7 @@
           <el-col :lg="8" :md="12" :sm="12" :xs="24">
             <aboutme/>
             <user-info/>
+            <external-link/>
           </el-col>
         </el-row>
       </div>
@@ -35,13 +36,15 @@ import Article from '@/components/Article'
 import Aboutme from './components/Aboutme'
 import Notice from './components/notice'
 import UserInfo from './components/user-info'
+import ExternalLink from './components/external-link'
 
 export default {
   components: {
     Article,
     Aboutme,
     Notice,
-    UserInfo
+    UserInfo,
+    ExternalLink
   },
   data() {
     return {
